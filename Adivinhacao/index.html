@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./stylesheet.css">
+	<title>Jogo de Adivinhar</title>
+</head>
+<body>
+	<header>
+		<h1>Jogo de Adivinhar</h1>
+	</header>
+	<body>
+		<div id='container'>
+			
+			<h2>Selecionamos um número aleatório entre 1 e 100.<br>
+				Veja se consegue adivinhar em 10 chances ou menos.<br>
+				Lhe diremos se seu palpite está com valor <span class="alto">QUENTE</span> ou <span class="baixo">FRIO</span>.</h2>
+
+
+				<input type="number" id="campoPalpite" value="100">
+				<button onclick="evento()">Enviar</button>
+
+			<div id='teste'>
+				<p id='resultado'></p>
+				<p id='numGravado'></p>
+				<p id='tentativa'></p>
+			</div>
+			<button onclick="zerar()">Reiniciar</button>
+
+		</div>
+
+	</body>
+
+</body>
+<script src="jscript.js"></script>
+</html>
